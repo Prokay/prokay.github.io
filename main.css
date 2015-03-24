@@ -32,6 +32,7 @@ body{
 .header{
     padding: 0px 0;
     background: black;
+    margin-bottom: 25px;
 }
 
 .top-menu{
@@ -232,6 +233,97 @@ input[type="submit"]{
     font-weight: bold;
     width: 315px;
     padding: 12px;
+}
+.content-section-shop{
+    background: url(img/background-index-section.png);
+    padding: 25px;
+}
+.content-section-shop:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+h1{
+    color: black;
+}
+.breadcrumbs{
+    list-style: none;
+    color: black;
+    font-size: 14px;
+    padding-left: 0;
+    margin-bottom: 35px;
+}
+.breadcrumbs li{
+    display: inline-block;
+    margin-right: 26px;
+    position: relative;
+}
+.breadcrumbs li a{
+    text-decoration: none;
+    color: black;
+}
+.breadcrumbs li:after{
+    content: '';
+    position: absolute;
+    background: url(img/icon-breadcrumbs.png);
+    width: 11px;
+    height: 12px;
+    top: 3px;
+    right: -19px;
+}
+.breadcrumbs li:last-child:after{
+    background: transparent;
+}
+.checkbox-section{
+    width: 210px;
+    height: 290px;
+    background: green;
+    float: left;
+}
+.check-group-items{
+    width: 210px;
+    height: 150px;
+    background: red;
+    float: left;
+    margin-top: 25px;
+}
+.catalog-items{
+    width: 700px;
+    min-height: 700px;
+    float: right;
+    font-size: 0px;
+}
+.catalog-item{
+    display: inline-block;
+    width: 220px;
+    min-height: 290px;
+    position: relative;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    background: white;
+}
+.catalog-item:nth-child(3n){
+    margin-right: 0px;
+}
+.catalog-item-description{
+    padding: 15px;
+}
+.button-buy{
+    width: 190px;
+    height: 33px;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    background: #e5e5e5;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+.button-buy:hover{
+    background: black;
+    color: white;
 }
 .footer{
     padding: 40px 0;
