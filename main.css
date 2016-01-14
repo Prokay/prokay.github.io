@@ -44,7 +44,7 @@ body{
     text-decoration: none;
     font-size: 20px;
     text-transform: uppercase;
-    
+     
 }
 .top-menu li a:hover{
     box-shadow: 0 7px 0 0 #3164d4;
@@ -67,12 +67,108 @@ body{
 .theme-of-day-section{
     width: 100%;
     height: 378px;
+<<<<<<< HEAD
     background: url(images/Layer-14.png) no-repeat;
     background-position: center;
+=======
+    background: url(images/Layer-14.png) no-repeat center;
+>>>>>>> origin/master
 }
 
 .data-section{
     width: 100%;
     min-height: 354px;
     background: url(images/Rectangle-14.png);
+    padding-top: 1px;
+}
+.data-header{
+    min-height: 45px;
+    margin-top: 30px;
+}
+.data-section-title{
+    float:left;
+    font-size: 30px;;
+}
+.data-btn-add{
+    float: right;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(235,239,241); 
+    border: 2px solid rgb(176,205,216);
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(0,118,179);
+    text-align: center;
+    line-height: 40px;
+}
+.data-btn-add a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+.data-btn-all{
+    float: right;
+    width: 130px;
+    height: 40px;
+    position: relative;
+    margin-left: 30px;
+    line-height: 40px;
+    font-size: 20px;
+    color:#0076b3;
+}
+.data-btn-all a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+.data-btn-all:after{
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 0;
+    width: 21px;
+    height: 41px;
+    background: url(images/Rounded-Rectangle-5-copy.png); 
+}
+.data-items{
+    position: relative;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+    font-size: 0;
+}
+.data-items:before{
+    
+}
+.data-items:after{
+    
+}
+.data-items li{
+    position: relative;
+    display: inline-block;
+    width: 236px;
+    margin-right: 15px;
+    font-size: 17px;
+    vertical-align: top;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    
+}
+.data-items li:last-child{
+    margin-right: 0;
+}
+.data-items li a{
+    text-decoration: none;
+    line-height: 0;
+}
+.data-index-title{
+    color: #282828;
+    line-height: 25px;
 }
